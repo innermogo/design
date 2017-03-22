@@ -1,0 +1,516 @@
+
+.public-header{
+    height:120px;
+    width: 1600px;;
+
+    background:#000000;
+   color:#fffcf4;
+}
+.public-header .header-logo{
+    float:left;
+    margin-top: 41px;
+    margin-left:234px;
+    margin-bottom: 41px;
+}
+.public-header .header-logo a{
+    height:36px;
+    width:138px;
+    background: url("../images/index-header-logo.png");
+}
+.public-header .header-nav{
+    float:right;
+    font-size: 16px;
+    margin-right: 308px;
+}
+
+.public-header .header-nav .item{
+    display:block;
+    float:left;
+    color:#ffffff;
+    margin-top: 50px;
+    margin-left: 45px;
+}
+.public-header .item a:link{
+    color：white;/*此处导航字体颜色设置失效，为何会这样？？*/
+}
+.public-header .nav-two a:hover{
+    color：#0a4a2c;
+    text-decoration: underline;/*此处导航链接的悬停下划线没有显示？？*/
+}
+.public-container{
+    position: relative;
+    margin:0 auto;
+    width:100%;
+}
+.index-banner{
+    position:relative;
+    width: 1600px;;
+}
+.index-banner-bg{
+    height: 900px;;
+    overflow:hidden;
+}
+.index-banner-bg img{
+    margin:0 auto;
+}
+.index-banner-text{
+    position:absolute;
+    top:260px;
+    left: 520px;
+
+}
+.index-banner-text .text-logo{
+    width:559px;
+    height:72px;
+    background:url("../images/index-text-logo.png") no-repeat  ;
+}
+.index-banner-text .text-info{
+    margin-top:55px;
+    margin-left:-152px;
+    text-align:center;
+    font-size:16px;
+    color:#fff;
+}
+.index-pra .index-pra-logo{
+    width:280px;
+    height:24px;
+    background:url("../images/pra-logo.png");
+
+}
+.index-pra{
+    position:relative;
+    margin-left:666px;
+    margin-top:-200px;}
+.index-pra .pra-info{
+    margin-top: 66px;
+    margin-left:-1300px;
+}
+.index-banner{
+    vertical-align: middle;
+    text-align: center;
+    background:fffcf4;
+}
+.index-pra {
+    vertical-align: middle;
+    text-align: center;
+    background:#fffcf4;
+    padding-top: 108px;
+    padding-bottom: 80px;;
+}
+.public-header .header-pra{
+    vertical-align: middle;
+    text-align: center;
+    background:#0b0a0a;
+    padding-top:360px;
+    padding-bottom:  280px;
+}
+.index-icon{
+    width:1600px;
+    height: 760px;
+    margin-left:212px;
+    margin-right:215px;
+}
+.index-icon .icon-box{
+    width:360px;
+    height: 248px;
+    float:left;
+    margin:45px;
+    border:1px solid #00F;
+    vertical-align: middle;
+    text-align:center;
+    padding-top:28px;
+    line-height:;20px;
+}
+.index-panel{
+    vertical-align:middle;
+    text-align:center;
+}
+.index-icon .text-icon{
+    width:148px;
+    height:86px;
+    background:url("../images/icon-one.png")no-repeat;
+
+}
+.index-icon .text-icon2{
+    width:150px;
+    height:86px;
+    background:url("../images/icon-two.png")no-repeat;
+}
+.index-icon .text-icon3{
+    width:150px;
+    height:86px;
+    background:url("../images/icon-three.png")no-repeat;
+}
+.index-icon .text-icon4{
+    width:170px;
+    height:86px;
+    background:url("../images/icon-four.png")no-repeat;
+}
+.index-icon .text-icon5{
+    width:150px;
+    height:86px;
+    background:url("../images/icon-five.png")no-repeat;
+}
+.index-icon .text-icon6{
+    width:150px;
+    height:86px;
+    background:url("../images/icon-six.png")no-repeat;
+}
+.index-panel{
+    margin-top:63px;
+}
+.index-pannel-header h2{
+    font-size: 28px;
+    color:#595959;
+    font-weight:normal;
+}
+.index-panel-body{
+    margin-top:75px;
+}
+.index-people-list{
+margin-left:300px;
+}
+.index-people-list ul{
+    width: 1700px;;
+}
+
+.index-people-list .p-item{
+    float:left;
+    margin-right: 25px;
+    margin-top:30px;
+    width:277px;
+    height: 392px;
+    background: url("../images/pp-one.jpg");
+    background-repeat:no-repeat;
+}
+.index-people-list .p-item2{
+    float:left;
+    margin-right: 25px;
+    margin-top:30px;
+    width:277px;
+    height: 392px;
+    background: url("../images/pp-two.jpg");
+    background-repeat:no-repeat;
+}
+.index-people-list .p-item3{
+    float:left;
+    margin-right:25px;
+    margin-top:30px;
+    width:277px;
+    height: 392px;
+    background: url("../images/pp-three.jpg");
+    background-repeat:no-repeat;
+}
+.index-people-list .p-item4{
+    float:left;
+    margin-right: 0px;
+    margin-top:30px;
+    width:277px;
+    height: 392px;
+    background: url("../images/pp-four.jpg");
+    background-repeat:no-repeat;
+}
+.index-panel-pic-header{
+    margin-top:122px;
+}
+.index-panel-pic .text-menu{
+    text-align:center;
+}
+.text-menu ul {
+    display:inline-block;
+}
+.text-menu li {
+    float:left;
+    margin-left: 580px;
+    margin-top: 48px;
+}
+.text-menu li + li {
+    margin-left:36px;
+}
+.text-menu .m-item .a{
+    a:link {text-decoration:none;}    /* unvisited link */
+   a:visited {text-decoration:none;} /* visited link */
+    a:hover {colror:#85eab5;}   /* mouse over link */
+     a:active {text-decoration:underline;}  /* selected link */
+}
+.pic-list1{
+    width:1172px;
+    height:394px;
+    background: url("../images/tree.jpg");
+    float:left;
+    margin-left: 306px;
+    margin-top:60px;
+}
+.pic-list2{
+    width:1172px;
+    height:394px;
+    background: url("../images/glass.jpg");
+    float:left;
+    margin-left: 306px;
+    margin-top:60px;
+}
+.index-panel-pic-button{
+    float: left;
+    margin-left: 700px;
+    margin-top: 42px;
+    width:200px;
+    height:60px;
+    background:#1dde85;
+    position:relative;
+    padding-top: 22px;
+}
+.index-panel-pic-button a{
+    vertical-align: middle;
+    font-size: 20px;
+    color: #fdfdfd;
+}
+.index-pra2 .index-pra2-header{
+    position:relative;
+    float: left;
+    margin-left: 690px;
+    margin-top: 115px;
+
+}
+
+.index-pra2{
+    width: 1600px;
+    margin: 0px auto;
+}
+.index-pra2 .public-plan{
+    float:left;
+    position:relative;
+    width:267px;
+    height:400px;
+    background:#fffcf4;
+    margin-left:-600px;
+    margin-top: 183px;
+   margin-right: 22px;
+}
+.index-pra2 .plans-two{
+    float:left;
+    position:relative;
+    width:267px;
+    height:400px;
+    background:#fffcf4;
+    margin-left:-311px;
+    margin-top: 183px;
+    margin-right: 22px;
+
+}
+
+.index-pra2 .plans-three{
+    float:left;
+    position:relative;
+    width:267px;
+    height:400px;
+    background:#fffcf4;
+    margin-left:-22px;
+    margin-top: 183px;
+    margin-right: 0px;
+}
+.index-pra2 .plans-four{
+    float:left;
+    position:relative;
+    width:267px;
+    height:400px;
+    background:#fffcf4;
+    margin-left:22px;
+    margin-top: 183px;
+    margin-right: 0px;
+}
+.public-plan .box-big{
+   width:269px;
+    height:88px;
+    border: 1px solid #a7a6a2;
+    background:#fffcf4;
+    margin-top: 30px;
+
+}
+.plans-one .logo-one {
+    background: url("../images/box-logo.png")no-repeat;
+    background-position: center;
+}
+.plans-two .logo-two{
+    background: url("../images/box-logo-2.png")no-repeat;
+    background-position: center;
+}
+.plans-three .logo-three {
+    background: url("../images/box-logo-3.png")no-repeat #1dde85;
+    background-position: center;
+}
+.plans-four .logo-four {
+    background: url("../images/box-logo-4.png")no-repeat;
+    background-position: center;
+}
+.public-plan .intro{
+    line-height:35px;
+    margin-top: 28px;
+    }
+.public-plan .box-small{
+    width:102px;
+    height:42px;
+    border: 1px solid #a7a6a2;
+    background:#fffcf4;
+    margin-top: 30px;
+    margin-left:75px;
+   padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.plans-three .order-three{
+   background: #1dde85;
+    color: #ffffff;
+}
+.sayhi img{
+    position: relative;
+    padding-top: 127px;
+}
+.sayhi {
+    position: relative;
+   margin-top: -470px;
+    margin-bottom: -37px;
+    color: #e8e5de;
+    font-size: 27px;
+}
+.input-name .input-one input{
+
+    width:442px;
+    height:60px;
+    float: left;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 352px;
+    background-color:transparent;
+    color:#fffcf4;/*此处的边框怎么无效果，是因为设置了文本框透明吗？如果是这样，那如果在文本框透明的同时显示出边框的效果*/
+    border-style: 1px;
+}
+.input-name .input-two input{
+    width:442px;
+    height:60px;
+    float: left;
+    position: relative;
+    margin-top: -60px;
+    margin-left: 814px;
+    background-color:transparent;
+    color:#fffcf4;
+    border-style: 1px;
+}
+.input-name .input-three input{
+    width:900px;
+    height:214px;
+    float: left;
+    position: relative;
+    margin-top: 28px;
+    margin-left: 352px;
+    background-color:transparent;
+    color:#fffcf4;
+    border-style: 1px;
+}
+.input-name .box-menu input{
+    float: left;
+    position: relative;
+    width:200px;
+    height: 50px;
+    background: #1dde85;
+    margin-top: 23px;
+    margin-left: 702px;
+    padding-top: 18px;
+    padding-bottom: 50px;
+    font-size: 24px;
+    color:#fffcf4 ;
+    margin-bottom: 23px;
+}
+.public-footer{
+    position: relative;
+    margin-top: 428px;
+    height:330px;
+    background:#0b0a0a;
+    padding-top: 40px;
+}
+.public-footer h3{
+    color:#ffffff;
+    padding-bottom: 14px;
+}
+.public-footer .footer-col p{
+    color: #868588;
+}
+
+.public-footer  .one-col{
+    text-align: left;
+    line-height:18px;
+    margin-top: 20px;
+    margin-left: 244px;
+    width: 328px;
+    height:212px;
+}
+.public-footer .two-col {
+    position: relative;
+    width: 190px;
+    height: 190px;
+    margin-left: 689px;
+    margin-top: -215px;
+    text-align: left;
+
+}
+.public-footer .footer-cel {
+
+    float: left;
+    line-height: 20px;
+
+}
+.public-footer .footer-cel a{
+color: #868588;
+}
+.public-footer .child ul{ margin-right:23px;}    /*两列ul间的间距为何无效果？*/
+.public-footer .three-col {
+    position: relative;
+    margin-left: 999px;
+    margin-top: -195px;
+    text-align: left;
+}
+.public-footer .footer-icon{
+    background:url("../images/footer-icon.png")no-repeat;/*此处的背景小图标怎么没有和上面的文本一起左对齐？*/
+    width: 190px;
+    height: 40pc;
+    margin-right:400px;
+}
+.public-footer .box-email{
+    width: 252px;
+    height: 44px;
+}
+.public-footer .box-email input{
+    width: 248px;
+    height: 41px;
+    background-color:transparent
+}
+.public-footer .Subscribe input{
+    width:  106px;
+    height: 36px;
+    background: #1dde85;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: #868588;
+    margin-top: 14px;
+}
+.public-footer .three-col .haha{
+    margin-top: -580px;
+}
+.public-footer .three-col .excel{
+
+    margin-top: 5px;
+}
+.public-footer .footer-bottom{
+    width: 1600px;
+    height: 70px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 33px;
+    background:  #000000;
+    color:#868588 ;
+    padding-top: 27px;
+    padding-bottom: -20px;
+}
